@@ -1,3 +1,3 @@
-Table bar total not displaying accurately:
-Create manual table calculation on pivoted row: sum(pivot_row(${view_name.field_name}))
-or for a colum: sum(${view_name.field_name})
+Aggregate measure issue
+
+Ensure if aggregating dimensions into a measure, that the dimensions are converted to measures first
